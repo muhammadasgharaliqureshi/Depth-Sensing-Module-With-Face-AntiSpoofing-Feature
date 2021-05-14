@@ -13,7 +13,7 @@ Now!!!!  We will assemble our system by installing all the required Libraries.
 following are the libraries that this project is using
 
 
-==> python ------->(for linux use version >= 3.5, for windows I recommend you to use 3.5 as it supports ddlib in windows)
+==> python ------->(for linux use version >= 3.5, for windows I recommend you to use 3.5 as it supports dlib in windows)
 
 
 ==> tkinter
@@ -25,7 +25,7 @@ following are the libraries that this project is using
 ==> numpy
 
 
-==> tensor flow -----> (version >2.2.0, I recommend to use 2.4.0 since all the trainig is done using that version.)
+==> tensor flow -----> (version >2.2.0, I recommend to use 2.4.0 since all the training is done using that version.)
 
 
 ==> keras -------> (I used 2.4.3, you can use any version that supports tensorflow 2.2.0 or > 2.2.0)
@@ -61,7 +61,7 @@ for callibrating your cameras you can use chessboard image that is inside Depth 
 
 after setting up your stereo camera client module.
 Open GUI folder, the main code is there that is main_Gui_code.py.
-you can change you app graphis in tkinter_test.py and tthen paste your required new gui code inside the main_Gui_code.py
+you can change you app graphics in tkinter_test.py and then paste your required new gui code inside the main_Gui_code.py
 
 for training your own model you can use my pretrained model that is already using another pretrained model Resnet50.
 The model is located in   Depth-Sensing-Module-With-Face-AntiSpoofing-Feature/GUI/Inferance_face_antispoofing-1618217329_____inferance_face_antispoof_classifier.h5
