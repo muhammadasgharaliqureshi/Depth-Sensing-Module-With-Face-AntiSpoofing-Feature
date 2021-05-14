@@ -11,16 +11,39 @@ Now!!!!  We will assemble our system by installing all the required Libraries.
 
 
 following are the libraries that this project is using
+
+
 ==> python ------->(for linux use version >= 3.5, for windows I recommend you to use 3.5 as it supports ddlib in windows)
+
+
 ==> tkinter
+
+
 ==> OpenCv-----> (any version of opencv-contrib-python)
+
+
 ==> numpy
+
+
 ==> tensor flow -----> (version >2.2.0, I recommend to use 2.4.0 since all the trainig is done using that version.)
+
+
 ==> keras -------> (I used 2.4.3, you can use any version that supports tensorflow 2.2.0 or > 2.2.0)
+
+
 ==> dlib ---------> (use latest version)
+
+
 ==> face-recognition -----------> (use latest version)
+
+
 ==> imagezmq
+
+
 ==> simplejpeg
+
+
+
 Before installing all these libraries we have to make suere that all the pre requisites files are being installed first.
 so follow me step by step for installing all the pre requisites of libraries
 sudo.....
