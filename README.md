@@ -45,15 +45,57 @@ following are the libraries that this project is using
 
 
 Before installing all these libraries we have to make suere that all the pre requisites files are being installed first.
-so follow me step by step for installing all the pre requisites of libraries
-sudo.....
-..........
-....
-...
+You can find all the prerequisites on google.
 
 
-The Libraries required are all wrritten in requirenments.txt file. all you had to do is write following command in youe desired enviroment that you are using for python.
-pip/pip3 install -r requirnments.txt
+################################################################################################################################################################################################################################################################################
+                                                HOW TO USE THE CODE?
+                                                ####################
+Here you will be seeing many folders but don't worry I will guide you step by step how to use each folder.
 
-here you will use pip if you have pyhon2 and pip3 if you have python3 in linux and in windows it depends on no of versions that are installed in pyrhon. so make sure what version of python pip or pip3 is representing and use that w.r.t your taste.
+first make sure you have setup your client (that is your stereo module).
+for callibrating your cameras you can use chessboard image that is inside Depth Sensing Module/Callibration of cameras/Callibration/
 
+
+after setting up your stereo camera client module.
+Open GUI folder, the main code is there that is main_Gui_code.py.
+you can change you app graphis in tkinter_test.py and tthen paste your required new gui code inside the main_Gui_code.py
+
+for training your own model you can use my pretrained model that is already using another pretrained model Resnet50.
+The model is located in   Depth-Sensing-Module-With-Face-AntiSpoofing-Feature/GUI/Inferance_face_antispoofing-1618217329_____inferance_face_antispoof_classifier.h5
+
+
+The model code can be found in   Depth-Sensing-Module-With-Face-AntiSpoofing-Feature/Face Anti Spoofing Network/Code and Dataset/
+
+The accuracy of model that I have trained using a pretrained ResNet50 is located in  Depth-Sensing-Module-With-Face-AntiSpoofing-Feature/model (FACE AntiSpoofer) Accuracy.jpg
+
+
+The Arduino code for opening and closing gate is located in   Depth-Sensing-Module-With-Face-AntiSpoofing-Feature/arduino gate/bluetooth_test_code/.
+you would require HC05 bluetooth sensor to use with arduino.
+
+                                               ###############
+                                               HOW TO RUN CODE
+                                               ###############
+                                               
+(Step1)   First place you image foler in known_faces folder that is located in    Depth-Sensing-Module-With-Face-AntiSpoofing-Feature/GUI/known_faces/
+
+
+
+(Step 2)  After that run your server code That is main_Gui_code.py
+
+
+(Step 3)  After that run client code that is located in   Depth-Sensing-Module-With-Face-AntiSpoofing-Feature/Client Code/
+
+           If you want to use Arduino automated gate system then run faster_client.py
+           
+           other wise you can use new_faster_client_for_separate_discription.py for using it without arduino gate system
+
+                          
+                          
+                                            #######################
+                                              Video Guide and link
+                                            #######################
+                  I will soon upload a video guide and link will be available here
+                  
+                  
+First run the server code that is main_Gui_code.py, After Gui is launched                                               
