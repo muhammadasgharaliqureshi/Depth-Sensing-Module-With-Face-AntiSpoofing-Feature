@@ -95,7 +95,6 @@ you would require HC05 bluetooth sensor to use with arduino.
                           
                           
                           
-First run the server code that is main_Gui_code.py, After Gui is launched                                               
 
 
 
