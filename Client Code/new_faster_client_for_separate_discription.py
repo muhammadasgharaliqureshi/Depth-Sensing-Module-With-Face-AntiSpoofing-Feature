@@ -12,9 +12,9 @@ from webcam_code import Camera
 rpi_name     = socket.gethostname() 
 camie = Camera(srcl = 0, srcr = 2)
 jpeg_quality = 80                   # 0 to 100, higher is better quality
-
+server_name = 'write HOSTNAME of your server here'
 try:
-    with imagezmq.ImageSender(connect_to='tcp://*:5555') as sender:
+    with imagezmq.ImageSender(connect_to='tcp://'+str(server_name)+':5555') as sender:
         while True:
             frameL, frameR = camie.capture_frame()
             image = np.hstack((frameL, frameR))
