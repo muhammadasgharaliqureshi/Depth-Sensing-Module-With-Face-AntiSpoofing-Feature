@@ -1,1 +1,0 @@
-Please change extention of .psd to .h5 for 1618217329_____inferance_face_antispoof_classifier.psd
