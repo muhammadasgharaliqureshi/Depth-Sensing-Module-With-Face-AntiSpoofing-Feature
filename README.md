@@ -102,7 +102,12 @@ you would require HC05 bluetooth sensor to use with arduino.
                                             #######################
                                               Video Guide and link
                                             #######################
+                               
                                Prototype  working: https://www.youtube.com/watch?v=vzztgHNkhVk 
+                               
                                prototype Explanation: https://www.youtube.com/watch?v=0OAEHPIbTFo
+                               
+                               
+                               
                            Atleast watch Prototype Explanation for getting idea of this project.
                            
